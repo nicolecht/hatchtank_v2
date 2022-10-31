@@ -2,6 +2,7 @@ import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
+
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
@@ -25,8 +26,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () => {
+  
+
   return (
-    <section id="features" className={layout.section}>
+    <section id="about" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           You do the business, <br className="sm:block hidden" />
@@ -37,7 +40,7 @@ const Business = () => {
           building credit, earning rewards and saving money. But with hundreds
           of credit cards on the market.
         </p>
-        <Button styles="mt-10" />
+        {/* <Button styles="mt-10" /> */}
       </div>
 
       <div className={`${layout.sectionImg} flex-col`}>

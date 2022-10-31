@@ -1,4 +1,22 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+  post1,
+  post2,
+  post3,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -6,16 +24,24 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "about",
+    title: "About",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "service",
+    title: "Services",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "team",
+    title: "Our Team",
+  },
+  {
+    id: "blog",
+    title: "Blogs",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 ];
 
@@ -23,21 +49,21 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Effective",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "We are frank and direct, we get down to business without any time wasted. ",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Results-backed",
     content:
       "We take proactive steps make sure your information and transactions are secure.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Shared-goals",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
   },
@@ -48,26 +74,25 @@ export const feedback = [
     id: "feedback-1",
     content:
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+    name: "Angel Gam",
+    title: "Founder & CEO",
     img: people01,
   },
   {
     id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+    content: "My ideas are plenty, but execution is my specialty.",
+    name: "Nicole Chee",
+    title: "Full-Stack Web Developer",
     img: people02,
   },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
+  // {
+  //   id: "feedback-3",
+  //   content:
+  //     "It is usually people in the money business, finance, and international trade that are really rich.",
+  //   name: "Kenn Gallagher",
+  //   title: "Founder & Leader",
+  //   img: people03,
+  // },
 ];
 
 export const stats = [
@@ -193,5 +218,23 @@ export const clients = [
   {
     id: "client-4",
     logo: dropbox,
+  },
+];
+
+export const blogposts = [
+  {
+    id: "post-1",
+    img: post1,
+    title: "Excel as a Leader with Self-Reflection",
+  },
+  {
+    id: "post-2",
+    img: post2,
+    title: "Years of Experience != Value",
+  },
+  {
+    id: "post-3",
+    img: post3,
+    title: "Things You Should Care About When Managing a Software Development Team",
   },
 ];
