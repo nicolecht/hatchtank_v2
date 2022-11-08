@@ -1,8 +1,8 @@
 import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 
-const Billing = () => (
-  <section id="service" className={layout.sectionReverse}>
+const Coach = () => (
+  <section className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img
         src={bill}
@@ -15,14 +15,14 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Business Setup <br className="sm:block hidden" />
-        and Management
+        Career <br className="sm:block hidden" />
+        Coaching
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Receive guidance in management skills regarding company incorporation and administration, human resource management, and accounting and finance.
+      Navigate towards your professional goals by refining your soft skills and building your career advancement.
       </p>
     </div>
   </section>
 );
 
-export default Billing;
+export default Coach;

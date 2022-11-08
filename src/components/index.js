@@ -9,6 +9,9 @@ import Footer from "./Footer";
 import Team from "./Team";
 import Hero from "./Hero";
 import Contact from "./Contact";
+import Digitalization from "./Digitalization";
+import Talent from "./Talent";
+import Coach from "./Coach";
 
 export {
   Navbar,
@@ -22,4 +25,7 @@ export {
   Footer,
   Team,
   Hero,
+  Digitalization,
+  Talent,
+  Coach,
 };

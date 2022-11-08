@@ -2,17 +2,16 @@ import { card } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
-const CardDeal = () => (
+const Talent = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        IT Product and <br className="sm:block hidden" />
-        Service Management
+        Culture and <br className="sm:block hidden" />
+        Talent Management
       </h2>
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Work towards achieving organizational goals relevant to IT, whether it
-        is digitalization, IT service management or product development.
+        Receive proven and up-to-date advice in hiring and building the right team, and fostering the right energy in growing an effective team.
       </p>
 
       {/* <Button styles="mt-10" /> */}
@@ -23,4 +22,4 @@ const CardDeal = () => (
   </section>
 );
 
-export default CardDeal;
+export default Talent;

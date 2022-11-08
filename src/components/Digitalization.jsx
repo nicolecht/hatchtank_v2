@@ -1,8 +1,8 @@
 import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 
-const Billing = () => (
-  <section id="service" className={layout.sectionReverse}>
+const Digitalization = () => (
+  <section className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img
         src={bill}
@@ -15,14 +15,14 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Business Setup <br className="sm:block hidden" />
-        and Management
+        Business <br className="sm:block hidden" />
+        Digitalization
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Receive guidance in management skills regarding company incorporation and administration, human resource management, and accounting and finance.
+      Bring your presense to the world wide web with our experienced in-house web development and digital marketing team.
       </p>
     </div>
   </section>
 );
 
-export default Billing;
+export default Digitalization;

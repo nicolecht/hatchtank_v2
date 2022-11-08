@@ -58,14 +58,14 @@ export const features = [
     icon: shield,
     title: "Results-backed",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We have supported career professionals and small businesses in achieving their goals",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Shared-goals",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "We share to you the right solutions, ensuring we achieve your desired goals collectively",
   },
 ];
 
@@ -82,7 +82,7 @@ export const feedback = [
     id: "feedback-2",
     content: "My ideas are plenty, but execution is my specialty.",
     name: "Nicole Chee",
-    title: "Full-Stack Web Developer",
+    title: "Web Developer",
     img: people02,
   },
   // {

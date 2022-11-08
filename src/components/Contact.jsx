@@ -17,7 +17,7 @@ const Contact = () => (
           className="w-[266px] h-[72px] object-contain"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[360px]`}>
-          A new way to make the payments easy, reliable and secure.
+          Get ready to take control of your growth.
         </p>
         <p className={`${styles.paragraph} mt-4 max-w-[360px]`}>
           Location: Kuala Lumpur, Malaysia.
