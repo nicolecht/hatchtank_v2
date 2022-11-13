@@ -8,7 +8,7 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import people01 from "./people01.jpeg";
 import people02 from "./people02.jpg";
-import post1 from "./post1.svg";
+import post1 from "./post1.png";
 import post2 from "./post2.jpeg";
 import post3 from "./post3.jpeg";
 import homePage from "./homePage.png";
