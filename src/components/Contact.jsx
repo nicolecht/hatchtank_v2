@@ -1,7 +1,6 @@
 import styles, { layout } from "../style";
 import { logo } from "../assets";
-import { footerLinks, socialMedia } from "../constants";
-import Button from "./Button";
+import { socialMedia } from "../constants";
 import ContactForm from "./ContactForm";
 
 const Contact = () => (
@@ -16,7 +15,7 @@ const Contact = () => (
           alt="hatchtank"
           className="w-[266px] h-[72px] object-contain"
         />
-        <p className={`${styles.paragraph} mt-4 max-w-[360px]`}>
+        <p className={`${styles.paragraph} my-4 max-w-[265px] text-center`}>
           Get ready to take control of your growth.
         </p>
         <p className={`${styles.paragraph} mt-4 max-w-[360px]`}>

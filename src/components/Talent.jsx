@@ -1,4 +1,4 @@
-import { card } from "../assets";
+import { cultureAndTalent} from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -11,13 +11,13 @@ const Talent = () => (
       </h2>
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Receive proven and up-to-date advice in hiring and building the right team, and fostering the right energy in growing an effective team.
+      Receive proven and up-to-date advice in recruitment, building an amazing team, and fostering the right energy in growing an effective team.
       </p>
 
       {/* <Button styles="mt-10" /> */}
     </div>
     <div className={layout.sectionImg}>
-      <img src={card} alt="card" className="w-[100%] h-[100%]" />
+      <img src={cultureAndTalent} alt="card" className="w-[80%] h-[100%]" />
     </div>
   </section>
 );

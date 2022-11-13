@@ -1,6 +1,5 @@
-import { card } from "../assets";
+import { ITProduct } from "../assets";
 import styles, { layout } from "../style";
-import Button from "./Button";
 
 const CardDeal = () => (
   <section className={layout.section}>
@@ -11,14 +10,13 @@ const CardDeal = () => (
       </h2>
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Work towards achieving organizational goals relevant to IT, whether it
-        is digitalization, IT service management or product development.
+      Empower and run your tech team effectively with best practices and continuous innovation.
+      <br/>Have a big idea in mind? Turn it into a product!
       </p>
 
-      {/* <Button styles="mt-10" /> */}
     </div>
     <div className={layout.sectionImg}>
-      <img src={card} alt="card" className="w-[100%] h-[100%]" />
+      <img src={ITProduct} alt="card" className="w-[80%] h-[100%]" />
     </div>
   </section>
 );

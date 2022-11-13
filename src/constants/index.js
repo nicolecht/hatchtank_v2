@@ -1,21 +1,15 @@
 import {
   people01,
   people02,
-  people03,
   facebook,
   instagram,
   linkedin,
-  twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
-  send,
-  shield,
-  star,
   post1,
   post2,
   post3,
+  aboutUs1,
+  aboutUs2,
+  aboutUs3,
 } from "../assets";
 
 export const navLinks = [
@@ -48,21 +42,21 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    icon: aboutUs1,
     title: "Effective",
     content:
       "We are frank and direct, we get down to business without any time wasted. ",
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: aboutUs2,
     title: "Results-backed",
     content:
       "We have supported career professionals and small businesses in achieving their goals",
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: aboutUs3,
     title: "Shared-goals",
     content:
       "We share to you the right solutions, ensuring we achieve your desired goals collectively",
@@ -73,7 +67,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "“Reach for the stars, and if you don’t reach it. At least you're at the top of the world.” - Pitbull",
     name: "Angel Gam",
     title: "Founder & CEO",
     img: people01,
@@ -85,14 +79,6 @@ export const feedback = [
     title: "Web Developer",
     img: people02,
   },
-  // {
-  //   id: "feedback-3",
-  //   content:
-  //     "It is usually people in the money business, finance, and international trade that are really rich.",
-  //   name: "Kenn Gallagher",
-  //   title: "Founder & Leader",
-  //   img: people03,
-  // },
 ];
 
 export const stats = [
@@ -113,72 +99,6 @@ export const stats = [
   },
 ];
 
-export const footerLinks = [
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
-];
-
 export const socialMedia = [
   {
     id: "social-media-1",
@@ -191,33 +111,9 @@ export const socialMedia = [
     link: "https://www.facebook.com/",
   },
   {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
-  },
-];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
   },
 ];
 
@@ -226,15 +122,19 @@ export const blogposts = [
     id: "post-1",
     img: post1,
     title: "Excel as a Leader with Self-Reflection",
+    link: "https://medium.com/@hatchtankconsulting/self-reflection-as-a-leader-a1ada046b3a7",
   },
   {
     id: "post-2",
     img: post2,
     title: "Years of Experience != Value",
+    link: "https://medium.com/@hatchtankconsulting/how-much-does-years-of-experience-worth-e9ff275ad480",
   },
   {
     id: "post-3",
     img: post3,
-    title: "Things You Should Care About When Managing a Software Development Team",
+    title:
+      "Things You Should Care About When Managing a Software Development Team",
+    link: "https://medium.com/@hatchtankconsulting/tech-leaders-things-you-should-care-about-95ef6c050ae7",
   },
 ];

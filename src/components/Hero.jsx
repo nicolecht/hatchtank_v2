@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, robot } from "../assets";
+import { homePage } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => (
@@ -30,15 +30,15 @@ const Hero = () => (
         payment method.
       </h1> */}
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Our team helps individuals and organizations to set their foundations right and thrive in their early stage of growth.
+        Our team helps individuals and organizations to set their foundations and thrive in their early stage of growth.
       </p>
     </div>
 
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
       <img
-        src={robot}
+        src={homePage}
         alt="billing"
-        className="w-[100%] h-[100%] relative z-[5]"
+        className="w-[100%] h-[100%] relative z-[5] xl:px-0 sm:px-16 px-6"
       />
       <div className="absolute z-[0] w-[40%] h-[30%] top-0 pink__gradient" />
       <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />

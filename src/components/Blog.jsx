@@ -1,15 +1,14 @@
 import styles, { layout } from "../style";
-import Button from "./Button";
 import { blogposts } from "../constants";
-import { post1 } from "../assets";
 
-const BlogPost = ({ img, title }) => (
-  <a
-    href="https://medium.com/@nicolecht/the-5-best-purchases-ive-made-f0461297e0d6"
-    target="_blank"
-  >
+const BlogPost = ({ img, title, link }) => (
+  <a href={link} target="_blank">
     <div className="flex justify-between flex-col p-10 rounded-[20px] max-w-[400px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
-      <img src={img} alt="img" className="w-[280px] h-[200px] object-fill m-auto rounded-[10px]"/>
+      <img
+        src={img}
+        alt="img"
+        className="w-[280px] h-[200px] object-fill m-auto rounded-[10px]"
+      />
       <p className="font-poppins font-normal text-[18px] leading-[32px] text-dimBlack mt-5 text-center">
         {title}
       </p>

@@ -1,6 +1,5 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
-import Button from "./Button";
 
 
 const FeatureCard = ({ icon, title, content, index }) => (
@@ -12,7 +11,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
     >
-      <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
+      <img src={icon} alt="icon" className=" object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
       <h4 className="font-poppins font-semibold text-dimBlack text-[18px] leading-[23px] mb-1">
