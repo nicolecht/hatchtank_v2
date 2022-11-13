@@ -67,7 +67,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "“Reach for the stars, and if you don’t reach it. At least you're at the top of the world.” - Pitbull",
+      "“Reach for the stars, and if you don’t reach it, at least you're at the top of the world.” - Pitbull",
     name: "Angel Gam",
     title: "Founder & CEO",
     img: people01,
@@ -121,20 +121,19 @@ export const blogposts = [
   {
     id: "post-1",
     img: post1,
-    title: "Excel as a Leader with Self-Reflection",
-    link: "https://medium.com/@hatchtankconsulting/self-reflection-as-a-leader-a1ada046b3a7",
+    title: "Getting into tech without technical background",
+    link: "https://medium.com/@hatchtankconsulting/getting-into-tech-without-technical-background-14d1317f5ced",
   },
   {
     id: "post-2",
     img: post2,
-    title: "Years of Experience != Value",
-    link: "https://medium.com/@hatchtankconsulting/how-much-does-years-of-experience-worth-e9ff275ad480",
+    title: "Transition into Product Management",
+    link: "https://medium.com/@hatchtankconsulting/transition-into-product-management-366c65fc456a",
   },
   {
     id: "post-3",
     img: post3,
-    title:
-      "Things You Should Care About When Managing a Software Development Team",
+    title: "Tech Leaders: Things you should care about",
     link: "https://medium.com/@hatchtankconsulting/tech-leaders-things-you-should-care-about-95ef6c050ae7",
   },
 ];

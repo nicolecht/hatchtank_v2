@@ -146,3 +146,7 @@
 .active-link-mobile:hover {
   color: #e2e9eb;
 }
+
+.filter-blue {
+  filter: invert(45%) sepia(96%) saturate(2316%) hue-rotate(164deg) brightness(101%) contrast(98%);
+}

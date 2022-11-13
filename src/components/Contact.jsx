@@ -1,5 +1,5 @@
 import styles, { layout } from "../style";
-import { logo } from "../assets";
+import { logo, locationDotSolid, envelopeSolid } from "../assets";
 import { socialMedia } from "../constants";
 import ContactForm from "./ContactForm";
 
@@ -18,12 +18,14 @@ const Contact = () => (
         <p className={`${styles.paragraph} my-4 max-w-[265px] text-center`}>
           Get ready to take control of your growth.
         </p>
-        <p className={`${styles.paragraph} mt-4 max-w-[360px]`}>
-          Location: Kuala Lumpur, Malaysia.
-        </p>
-        <p className={`${styles.paragraph} mt-4 max-w-[360px]`}>
-          Email: hatchtankconsulting@gmail.com
-        </p>
+        <div className="mt-4 max-w-[360px] flex">
+          <img src={envelopeSolid} className="w-[18px] mr-3 filter-blue" />
+          <p className={`${styles.paragraph}`}>hatchtankconsulting@gmail.com</p>
+        </div>
+        <div className="mt-4 max-w-[360px] flex">
+          <img src={locationDotSolid} className="w-[18px] mr-3 filter-blue" />
+          <p className={`${styles.paragraph}`}>Kuala Lumpur, Malaysia</p>
+        </div>
       </div>
 
       <ContactForm />
