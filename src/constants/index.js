@@ -76,7 +76,7 @@ export const feedback = [
     id: "feedback-2",
     content: "My ideas are plenty, but execution is my specialty.",
     name: "Nicole Chee",
-    title: "Web Developer",
+    title: "Web Developer, ACCA Affiliate",
     img: people02,
   },
 ];

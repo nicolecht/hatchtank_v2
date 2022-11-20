@@ -1,12 +1,23 @@
 import { useState } from "react";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import { useScrollPosition } from "../hooks/useScrollPosition";
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
+}
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const scrollPosition = useScrollPosition();
 
   return (
-    <nav className="w-full flex py-4 justify-between items-center navbar">
+    <nav
+      className={`w-full flex justify-between items-center navbar ${classNames(
+        scrollPosition > 0 ? "py-2" : "py-4",
+        "transition-all duration-100"
+      )} `}
+    >
       <img src={logo} alt="hatchtank" className="w-[180px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 ">
