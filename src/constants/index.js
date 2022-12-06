@@ -69,7 +69,7 @@ export const feedback = [
     content:
       "“Reach for the stars, and if you don’t reach it, at least you're at the top of the world.” - Pitbull",
     name: "Angel Gam",
-    title: "Founder & CEO",
+    title: "Solution Crafter",
     img: people01,
   },
   {
